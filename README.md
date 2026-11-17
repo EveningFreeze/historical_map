@@ -31,7 +31,7 @@ Python 可以从 [Python 官网](https://www.python.org/downloads/windows/) 下�
 在 PowerShell 中执行：
 
 ```powershell
-git clone <你的 GitHub 仓库地址> historical_map_platform
+git clone https://github.com/EveningFreeze/historical_map.git historical_map_platform
 cd historical_map_platform
 ```
 
