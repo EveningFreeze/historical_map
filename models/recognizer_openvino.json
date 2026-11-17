@@ -1,0 +1,7 @@
+{
+  "format": "onnx",
+  "source": "recognizer.ts",
+  "tile_size": 1280,
+  "sha256": "49725ad28b2e142cefef6666040d6680847272030154f4d05711b91e5dfc1347",
+  "notes": "Raw outputs only; platform keeps the same decoding and post-processing."
+}

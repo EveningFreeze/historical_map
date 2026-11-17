@@ -1,0 +1,4 @@
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1+cu124
+openvino==2025.1.0

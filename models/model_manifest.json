@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "model_version": "v0.1.0-models",
+  "model_family": "DeepSolo-TW25",
+  "repository": "https://github.com/EveningFreeze/historical_map",
+  "release_base_url": "https://github.com/EveningFreeze/historical_map/releases/download/v0.1.0-models",
+  "description": "TW25 繁体中文历史地图地名提取部署模型。发布 Release 后，download_models.ps1 会按后端下载并校验文件。",
+  "artifacts": [
+    {
+      "name": "recognizer_cuda.ts",
+      "backend": "cuda",
+      "size_bytes": 177840183,
+      "sha256": "FF2C7B71F4EA2863B307E01339CB5416F12214A75C64F38708E2E17C54D46FEE"
+    },
+    {
+      "name": "recognizer.onnx",
+      "backend": "openvino",
+      "size_bytes": 178558088,
+      "sha256": "49725AD28B2E142CEFEF6666040D6680847272030154F4D05711B91E5DFC1347"
+    },
+    {
+      "name": "recognizer.ts",
+      "backend": "torchscript",
+      "size_bytes": 177872491,
+      "sha256": "244FBDE694D50A41BEBD34A72C838DAC9CC6F6DAD1A6556C61DA5F99EFA6B931"
+    },
+    {
+      "name": "tw25_cls_list.txt",
+      "backend": "shared",
+      "size_bytes": 23732,
+      "sha256": "F3616085DA44B316D45D30C80105F6AB948E24ECE3C84509C30A48FEF9E43936"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "format": "torchscript",
+  "raw_outputs_only": true,
+  "tile_size": 1280,
+  "sha256": "244FBDE694D50A41BEBD34A72C838DAC9CC6F6DAD1A6556C61DA5F99EFA6B931",
+  "vocabulary": "models/tw25_cls_list.txt",
+  "source_weights": "private_training_checkpoint",
+  "device_used_for_export": "cpu",
+  "max_abs_diff_eager_vs_traced": 0.0,
+  "notes": "Windows backend must implement polygon reconstruction, NMS, and CTC decoding."
+}

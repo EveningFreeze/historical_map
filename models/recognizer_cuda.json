@@ -1,0 +1,8 @@
+{
+  "format": "torchscript",
+  "source": "models\\recognizer.ts",
+  "device_constants_rewritten": 8,
+  "device_used_for_export": "cuda",
+  "weights_unchanged": true,
+  "notes": "CPU source graph rewritten only for explicit Device constants."
+}
