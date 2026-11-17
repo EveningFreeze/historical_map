@@ -31,8 +31,8 @@ Python 可以从 [Python 官网](https://www.python.org/downloads/windows/) 下�
 在 PowerShell 中执行：
 
 ```powershell
-git clone https://github.com/EveningFreeze/historical_map.git historical_map_platform
-cd historical_map_platform
+git clone https://github.com/EveningFreeze/historical_map.git
+cd historical_map
 ```
 
 模型文件不放在普通 Git 历史中，而是作为 GitHub Release 资源分发。首次部署时执行下面的命令，脚本会把模型下载到仓库的 `models\` 目录，并校验文件大小和 SHA256：
